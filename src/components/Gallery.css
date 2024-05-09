@@ -1,0 +1,30 @@
+.slideshow-container {
+    overflow: hidden;
+  }
+  
+  .slides {
+    display: flex;
+    flex-wrap: wrap; /* Allow images to wrap to next line */
+    justify-content: center; /* Center images horizontally */
+  }
+  
+  .slide {
+    flex: 0 0 calc(33.33% - 20px); /* Adjust width for three images per row with spacing */
+    margin: 5px; /* Adjust spacing between images */
+  }
+  
+  .slide img {
+    width: 60%; /* Adjust width to fit container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .slide-title {
+    color: #222;
+    margin-top: 5px;
+    text-align: center;
+  }
+  
+  .active {
+    opacity: 1;
+  }
+  
