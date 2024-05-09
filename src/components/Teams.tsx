@@ -1,5 +1,4 @@
 import React from 'react';
-import { Card, CardContent, Typography } from '@mui/material';
 import { Facebook, Instagram } from '@mui/icons-material';
 import Msaravanan_President from '../assets/Msaravanan_President.png';
 import coach1 from '../assets/coach1.jpg'
@@ -61,14 +60,14 @@ const Teams = () => {
 
 {coaches.map((coach, index) => (
   <div key={index} className="group relative w-52 h-52 bg-yellow-300 rounded-full overflow-hidden shadow-md m-2">
-    <CardContent className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
-      <Typography variant="h5" className="text-yellow-300 text-xl font-black">{coach.name}</Typography>
-      <Typography variant="subtitle1" className="text-white">{coach.role}</Typography>
+    <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
+      <h5 className="text-yellow-300 text-xl font-black">{coach.name}</h5>
+      <p  className="text-white">{coach.role}</p>
       <div className="flex justify-center mt-2">
         <Instagram className="text-white mr-2" />
       </div>
       
-    </CardContent>
+    </div>
 
     <img src={coach.imgSrc} alt={coach.name} className="w-full h-full object-cover" />
   
@@ -82,13 +81,13 @@ const Teams = () => {
 
         {teamMembers.map((member, index) => (
           <div key={index} className="group relative w-52 h-52 bg-yellow-300 rounded-full overflow-hidden shadow-md m-2">
-            <CardContent className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
-              <Typography variant="h5" className="text-yellow-300 text-xl font-black">{member.name}</Typography>
-              <Typography variant="subtitle1" className="text-white">{member.role}</Typography>
+            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
+              <h5 className="text-yellow-300 text-xl font-black">{member.name}</h5>
+              <p className="text-white">{member.role}</p>
               <div className="flex justify-center mt-2">
                 <Instagram className="text-white mr-2" />
               </div>
-            </CardContent>
+            </div>
 
             <img src={member.imgSrc} alt={member.name} className="w-full h-full object-cover" />
 
@@ -102,11 +101,11 @@ const Teams = () => {
         {associationMembers.map((member, index) => (
           <div key={index} className="group relative w-52 h-52 bg-black rounded-full overflow-hidden shadow-md m-2">
             <img src={member.imgSrc} alt={member.name} className="w-full h-full object-cover" />
-            <CardContent className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
-              <Typography variant="h6" className="text-yellow-300 text-xl font-black">{member.name}</Typography>
-              <Typography variant="h6" className="text-white" style={{marginLeft:'15px'}}>{member.role}</Typography>
+            <div className="absolute bottom-0 left-0 w-full bg-black bg-opacity-70 p-4 opacity-0 transition-all duration-300 group-hover:opacity-100">
+              <h6 className="text-yellow-300 text-xl font-black">{member.name}</h6>
+              <p className="text-white" style={{marginLeft:'15px'}}>{member.role}</p>
             
-            </CardContent>
+            </div>
           </div>
         ))}
       </div>
