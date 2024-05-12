@@ -36,7 +36,7 @@
     "start": "react-scripts start",
     "predeploy": "",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
+    "build": "npm install && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
