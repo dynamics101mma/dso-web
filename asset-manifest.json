@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dynamics101mma.com/static/css/main.35311962.css",
-    "main.js": "/dynamics101mma.com/static/js/main.bfe7f544.js",
+    "main.js": "/dynamics101mma.com/static/js/main.5d9391d1.js",
     "static/js/453.1b52b2a5.chunk.js": "/dynamics101mma.com/static/js/453.1b52b2a5.chunk.js",
     "static/media/avDhanda_vp.png": "/dynamics101mma.com/static/media/avDhanda_vp.c1589de3f50c60cf1f46.png",
     "static/media/ThiruFight.png": "/dynamics101mma.com/static/media/ThiruFight.538d1389efebf40e1917.png",
@@ -47,11 +47,11 @@
     "static/media/apSrini_legalAd.jpg": "/dynamics101mma.com/static/media/apSrini_legalAd.fade43759170bfbfbf41.jpg",
     "index.html": "/dynamics101mma.com/index.html",
     "main.35311962.css.map": "/dynamics101mma.com/static/css/main.35311962.css.map",
-    "main.bfe7f544.js.map": "/dynamics101mma.com/static/js/main.bfe7f544.js.map",
+    "main.5d9391d1.js.map": "/dynamics101mma.com/static/js/main.5d9391d1.js.map",
     "453.1b52b2a5.chunk.js.map": "/dynamics101mma.com/static/js/453.1b52b2a5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35311962.css",
-    "static/js/main.bfe7f544.js"
+    "static/js/main.5d9391d1.js"
   ]
 }
